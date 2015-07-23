@@ -2,7 +2,7 @@
   "name": "angulartics-google-analytics",
   "main": "./dist/angulartics-google-analytics.min.js",
   "dependencies": {
-    "angulartics": "~0.18.0"
+    "angulartics": "https://github.com/faisalferoz/angulartics.git#master"
   },
   "ignore": [
     "**/.*",
@@ -11,5 +11,8 @@
     "example",
     "package.json",
     "lib/index.js"
-  ]
+  ],
+  "resolutions": {
+    "waypoints": "~3.1.1"
+  }
 }
